@@ -1,0 +1,389 @@
+html {
+  scroll-behavior: smooth;
+}
+
+
+/* Navbar */
+.navbar {
+  position: relative;
+  z-index: 1;
+}
+
+.bg-dark{
+  background: transparent !important;
+}
+
+.bg-dark.scrolled{
+  background: rgba(0,0,0,0.8) !important;
+}
+
+.navbar-brand {
+    font-family:Viga;
+    font-size: 36px;
+}
+
+.nav-link {
+  font-family: Poppins;
+  color: #FFFFFF;
+}
+
+
+
+/* Utility */
+.tombol {
+  border-radius: 100px;
+  text-align: center;
+  color: linear-gradient(to top, rgba(#7912FC), rgba(#13D0FA,0.81));
+  font-family: poppins;
+}
+
+/* Jumbotron */
+  .jumbotron {
+    background-image: url(image/jumbotron.jpg);
+    background-size: cover;
+    height: 480px;
+    text-align: center;
+    position: relative;
+    }
+    
+  
+  .jumbotron .container {
+    position: relative;
+    z-index: 1;
+  }
+
+  .jumbotron::after {
+    content: '';
+    display: block;
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(to top, rgba(0,0,0,1), rgba(0,0,0,0.3), rgba(0,0,0,0.6));
+    position: absolute;
+    bottom: 0;
+  }
+
+
+  .jumbotron .display-4 {
+    color: white;
+    text-align: center;
+    margin-top: 120px;
+    font-family: Poppins;
+    font-weight: 500;
+    font-size: 40px;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.7);
+    }
+
+
+  .jumbotron .lead {
+    color: white;
+    text-align: center;
+    font-family: Poppins;
+    font-weight: 100;
+    font-size: 16px;
+    margin-bottom: 20px;
+    }
+
+  .jumbotron .lead span {
+    font-style: italic;
+    }
+
+  
+
+  /* Info Panel */
+  .info-panel {
+    background-color: white;
+    box-shadow: 0 3px 20px rgba(0,0,0,0.5);
+    text-align: center;
+    font-family: Poppins;
+    border-radius: 10px;
+    margin-top: -110px;
+    padding: 30px;
+  }
+
+
+  .info-panel img {
+    width: 80px;
+    height: 80px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+  }
+
+
+  .info-panel h4 {
+    font-size: 16px;
+    text-transform: uppercase;
+    text-align: justify;
+    font-weight: bold;
+    margin-top: 5px;
+  }
+
+  .info-panel p {
+    text-align: left;
+    font-size: 12px;
+    color: #acacac;
+    margin-top: -5px;
+    font-weight: 200px;
+  }
+
+
+
+
+.profil {
+  margin-top: 120px;
+  font-family: poppins;
+  font-weight: 300;
+  font-size: 16px;
+}
+
+.profil img {
+  width: 160px;
+  height: 160px;
+  margin: 100px;
+  margin-left: 150px;
+  margin-bottom: -2px;
+}
+
+.profil h5{
+  font-family: poppins;
+  font-weight: 600;
+  font-size: 42px;
+  text-align: center;
+ }
+
+.profil p {
+  margin-top: 20px;
+  margin-bottom: 40px;
+}
+
+.profil .tombol {
+  margin-left: 260px;
+  margin-bottom: 40px;
+}
+
+
+.profil h3{
+  font-family: poppins;
+  font-weight: 520;
+  font-size: 42px;
+  margin-left: 100px;
+  margin-bottom: 20px;
+ }
+
+
+
+ /* Sertifikasi */
+.sertifikasi {
+  margin-top: 120px;
+  margin-bottom: 60px;
+  font-family: poppins;
+  text-align: center;
+}
+
+.sertifikasi .col {
+  margin-top: 40px;
+}
+
+.sertifikasi h3{
+  font-family: poppins;
+  font-weight: 550;
+  font-size: 42px;
+  margin-left: 100px;
+}
+
+.sertifikasi img {
+  width: 500px;
+  height: 300px;
+  margin-top: 20px;
+  margin-bottom: 40px; 
+}
+
+
+/* Kontak */
+.kontak {
+  background-color: white;
+  box-shadow: 0 3px 20px rgba(0,0,0,0.5);
+  text-align: center;
+  font-family: Poppins;
+  border-radius: 10px;
+  margin-top: 100px;
+  padding: 30px;
+}
+
+
+.kontak img {
+  width: 60px;
+  height: 60px;
+  margin-right: 20px;
+  margin-bottom: 20px;
+}
+
+.kontak h3 {
+  font-weight: 550;
+  font-size: 42px;
+  margin: 20px;
+}
+
+.kontak h4 {
+  font-size: 16px;
+  text-align: center;
+  font-weight: lighter;
+  margin-bottom: 40px;
+}
+
+.kontak h5{
+  font-size: 16px;
+  text-align: left;
+  margin-top: 5px;
+}
+
+
+.kontak p {
+  text-align: left;
+  font-size: 12px;
+  color: #acacac;
+  font-weight: 200px;
+}
+
+.kontak a {
+  font-size: 10px;
+  font-weight: 200px;
+  margin-left: -150px;
+  margin-top: -80px;
+}
+
+
+/* Footer */
+.footer-copyright{
+  font-family: poppins;
+  font-size: 16px;
+  text-align: center;
+  font-weight: 200;
+  margin-top: 100px;
+
+}
+
+
+    
+
+/* Desktop Version */
+@media (min-width: 992px) {
+  .navbar-brand, .nav-link {
+    color: #FFFFFF !important;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.7);
+  }
+
+  
+  .nav-link {
+    text-transform: uppercase;
+    font-family: Poppins0,300;  
+    margin-right: 50px;
+  } 
+
+  .nav-link:hover::after {
+    content: '';
+    display: block;
+    border-bottom: 3px solid #FFFFFF;
+    width: 50%;
+    margin: auto ;
+    padding-bottom: 3px;
+    margin-bottom: -6px;
+  }
+  
+  .jumbotron {
+    margin-top: -78px;
+    height: 620px;
+  }
+
+
+  .jumbotron .display-4 {
+    font-size: 62px;
+    margin-top: 150px;
+  }
+
+  .jumbotron .lead {
+    font-size: 20px;
+  }
+
+  .jumbotron .lead span {
+    font-size: 20px;
+  }
+
+  /* Profil */
+    .profil h5{
+    font-family: poppins;
+    font-weight: 600;
+    font-size: 42px;
+    text-align: left;
+    }
+
+      
+    .profil img {
+      width: 160px;
+      height: 160px;
+      margin-left: 200px;
+      margin-top: 80px;
+    }
+
+    .profil .tombol {
+      margin-left: 380px;
+    }
+
+    .profil h3{
+      font-family: poppins;
+      font-weight: 520;
+      font-size: 48px;
+      text-align: center;
+      margin-left: 200px;
+    }                          
+
+
+   /* Sertifikasi */
+    .sertifikasi {
+      margin-top: 120px;
+      margin-bottom: 60px;
+      font-family: poppins;
+      text-align: center;
+    }
+
+    .sertifikasi .col {
+      margin-top: 40px;
+    }
+
+    .sertifikasi h3{
+      font-family: poppins;
+      font-weight: 550;
+      font-size: 42px;
+      margin-left: 200px;
+    }
+
+    .sertifikasi img {
+      width: 500px;
+      height: 300px;
+      margin-top: 20px;
+      margin-bottom: 30px; 
+    }
+  
+
+    /* Kontak */
+    .kontak h3 {
+      font-weight: 550;
+      font-size: 42px;
+      margin: 20px;
+    }
+
+    .kontak a {
+      font-size: 10px;
+      font-weight: 200px;
+      margin-left: -90px;
+      margin-top: -80px;
+    }
+    
+
+
+    /* Footer */
+    .footer-copyright{
+      font-size: 16px;
+      text-align: center;
+    }
+}
+
